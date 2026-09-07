@@ -3,8 +3,14 @@ body {
   text-align: center;
 }
 
+.update-date {
+  font-style: italic;
+  color: #666;
+}
+
 .pokedex {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   gap: 20px;
 }
