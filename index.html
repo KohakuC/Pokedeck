@@ -1,42 +1,44 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-<meta charset="UTF-8">
-<title>Site web de Pokemon</title>
-<link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Site web de Pokemon</title>
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
-<body>
-<h1>Site web de Pokemon</h1>
+<body class="m-2 text-center font-[Arial,sans-serif]">
+  <h1 class="my-[0.67em] text-[2em] font-bold">Site web de Pokemon</h1>
 
-<div class="pokedex">
-<div class="card">
-<img src="./images/pikachu.png" alt="Pikachu photo">
-<p class="name">Pikachu</p>
-<p class="hp">PV : 35</p>
-<p class="type">Type : Electrik</p>
-</div>
+  <div class="flex flex-wrap justify-center gap-5">
+    <div class="box-content w-[200px] border border-[#333] p-2.5">
+      <img class="mx-auto w-[150px]" src="./images/pikachu.png" alt="Pikachu photo">
+      <p class="my-4">Pikachu</p>
+      <p class="my-4">PV : 35</p>
+      <p class="my-4">Type : Electrik</p>
+    </div>
 
-<div class="card">
-<img src="./images/evoli.jpeg" alt="Evoli photo">
-<p class="name">Evoli</p>
-<p class="hp">PV : 55</p>
-<p class="type">Type : Normal</p>
-</div>
+    <div class="box-content w-[200px] border border-[#333] p-2.5">
+      <img class="mx-auto w-[150px]" src="./images/evoli.jpeg" alt="Evoli photo">
+      <p class="my-4">Evoli</p>
+      <p class="my-4">PV : 55</p>
+      <p class="my-4">Type : Normal</p>
+    </div>
 
-<div class="card">
-<img src="./images/bulbizarre.png" alt="Bulbizarre">
-<p class="name">Bulbizarre</p>
-<p class="hp">PV : 45</p>
-<p class="type">Type : Plante, Poison</p>
-</div>
+    <div class="box-content w-[200px] border border-[#333] p-2.5">
+      <img class="mx-auto w-[150px]" src="./images/bulbizarre.png" alt="Bulbizarre">
+      <p class="my-4">Bulbizarre</p>
+      <p class="my-4">PV : 45</p>
+      <p class="my-4">Type : Plante, Poison</p>
+    </div>
 
-<div class="card">
-<img src="./images/salameche.png" alt="Salamèche">
-<p class="name">Salamèche</p>
-<p class="hp">PV : 39</p>
-<p class="type">Type : Feu</p>
-</div>
-</div>
-<p class="update-date">Dernière mise à jour : 07/09/2026</p>
+    <div class="box-content w-[200px] border border-[#333] p-2.5">
+      <img class="mx-auto w-[150px]" src="./images/salameche.png" alt="Salamèche">
+      <p class="my-4">Salamèche</p>
+      <p class="my-4">PV : 39</p>
+      <p class="my-4">Type : Feu</p>
+    </div>
+  </div>
+
+  <p class="my-4 italic text-[#666]">Dernière mise à jour : 07/09/2026</p>
 </body>
 </html>
