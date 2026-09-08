@@ -7,11 +7,12 @@ on:
       - main
 
 jobs:
-  mon-premier-job-de-test:
+  verification-structure:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Afficher un  message
-        run: echo "La pipeline Github Actions fonctionne !"
+      - name: Récupérer le code
+        uses: actions/checkout@v4
 
-        
+      - name: Vérifier que le fichier existe
+        run: test -f index.html
