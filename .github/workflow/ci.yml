@@ -11,5 +11,5 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      -name: Afficher un  message
+      - name: Afficher un  message
         run: echo "La pipeline Github Actions fonctionne !"
